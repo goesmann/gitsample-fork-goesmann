@@ -22,5 +22,6 @@ public interface TextProvider {
 	 * @return the text on the display of the  {@link Calculator}
 	 */
 	public String getDisplayText();
+	// Goesmann
 
 }
