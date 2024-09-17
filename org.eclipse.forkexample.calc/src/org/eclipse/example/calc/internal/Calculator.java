@@ -29,13 +29,16 @@ public class Calculator {
 	private float value;
 
 	public static String NAME = "Simple Calculator";
-
+// sinnvoller Kommentar
 	public Calculator(TextProvider textProvider) {
 		this.textProvider = textProvider;
 		setupDefaultOperations();
 	}
 
 	private void setupDefaultOperations() {
+		// i want more
+		//noch ein sinnvoller Kommentar
+		//es kommen mehr Operationen
 		new Equals();
 		new Minus();
 		new Plus();
